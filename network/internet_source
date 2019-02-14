@@ -1,0 +1,7 @@
+06 : find path file IP DNS >> https://www.cyberciti.biz/faq/how-to-find-out-what-my-dns-servers-address-is/
+09 : ind public ip 42.fr >> ping -c1 42.fr || nslookup 42.fr
+11 : find device between our intra and internet >> command : traceroute slash16.org, NAT = "NETWORK ADRESS TRANSLATION"
+12 : find dhcp ip >> http://hints.macworld.com/article.php?story=20060124152826491
+13 : reverse DNS, find our host name >> host 10.51.1.253
+14 : find file local DNS entries >> https://markinns.com/archive/how-to-setup-a-local-dns-host-file-on-mac-os-x.html
+15 : reroute intra.42.fr on <ip addres> >> Modify the hosts file ? But need sudo... : https://www.makeuseof.com/tag/how-to-edit-the-mac-os-x-hosts-file-and-why-you-might-want-to/

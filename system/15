@@ -1,0 +1,2 @@
+pgrep syslog
+kill <output>

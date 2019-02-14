@@ -1,0 +1,2 @@
+vi /etc/hostname --> To change the hostname
+/etc/init.d/hostname.sh start --> Or reboot (apply change)
