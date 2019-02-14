@@ -1,2 +1,1 @@
-pgrep syslog
-kill <output>
+pkill tail

@@ -1,0 +1,8 @@
+the cron service allows you to schedule tasks
+
+
+
+You can launch it with crontab -e
+Then you need to add task with the following format :
+m h  dom mon dow   command
+~ min(0-59) hour(0-23) day(1-31) month(1-12) weekday(0-6)    command

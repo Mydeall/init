@@ -1,4 +1,4 @@
-2 : change hostname >> https://www.cyberciti.biz/faq/howto-change-my-hostname-machine-name/
+2 : change hostname (afficher hostname = hostname) >> https://www.cyberciti.biz/faq/howto-change-my-hostname-machine-name/
 3 : change hostname >> https://www.cyberciti.biz/faq/howto-change-my-hostname-machine-name/
 4 : time since last reboot >> https://www.cyberciti.biz/tips/linux-last-reboot-time-and-date-find-out.html
 5 : state ssh service >> https://www.cyberciti.biz/faq/howto-start-stop-ssh-server/
@@ -10,3 +10,10 @@
 11 : display free space >> https://www.cyberciti.biz/faq/check-free-space/
 12 : size folder >> https://unix.stackexchange.com/questions/185764/how-do-i-get-the-size-of-a-directory-on-the-command-line
 13 : currently running process >> https://www.cyberciti.biz/faq/show-all-running-processes-in-linux/
+15 : kill task >> https://bytefreaks.net/gnulinux/bash/bash-killall-command-not-found-a-solution
+16 : task scheduler >> https://www.howtogeek.com/101288/how-to-schedule-tasks-on-linux-an-introduction-to-crontab-files/
+18 : stop ssh service >> https://www.cyberciti.biz/faq/howto-start-stop-ssh-server/
+20 : list all existing users >> https://www.linuxquestions.org/questions/linux-newbie-8/how-to-list-existing-users-337445/
+21 : list real users : all real user (created with useradd, then all except the ones created by the system during installation etc.) get an UID. You get check the UID range with the following command : grep -E '^UID_MIN|^UID_MAX' /etc/login.defs. Then you search users in /etc/passwd/ with an UID in the right range. >> https://linuxize.com/post/how-to-list-users-in-linux/#get-a-list-of-all-users-using-the-getent-command
+22 : adduser >> https://linuxize.com/post/how-to-list-users-in-linux/#get-a-list-of-all-users-using-the-getent-command
+25 : lst packages installed >> https://askubuntu.com/questions/17823/how-to-list-all-installed-packages

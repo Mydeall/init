@@ -1,0 +1,2 @@
+sudo pkill -u $1
+sudo userdel $1
